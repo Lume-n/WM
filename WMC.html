@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raining Petals</title>
+<style>
+    body {
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .petal {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: pink; /* You can change the color as desired */
+        border-radius: 50%;
+        pointer-events: none;
+        opacity: 0;
+        animation: fall 3s linear infinite;
+    }
+
+    @keyframes fall {
+        0% {
+            transform: translateY(-100vh) rotate(0deg);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(100vh) rotate(720deg);
+            opacity: 0;
+        }
+    }
+</style>
+</head>
+<body>
+<script>
+    function createPetal() {
+        const petal = document.createElement('div');
+        petal.classList.add('petal');
+        petal.style.left = Math.random() * window.innerWidth + 'px';
+        document.body.appendChild(petal);
+        setTimeout(() => {
+            petal.remove();
+        }, 3000); // Adjust the time the petals remain on the screen (in milliseconds)
+    }
+
+    setInterval(createPetal, 200); // Adjust the interval between each petal (in milliseconds)
+</script>
+</body>
+</html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Month Celebration</title>
+    <style>
+	
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('floww4.png');
+            color: #333;
+        }
+        header {
+            background-image: url('ulo.png'); 
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+        }
+		h2 {
+			font-size: 25px;
+			font-family: Garamond, serif;
+		}
+        .container {
+            width: 80%;
+            margin: 20px auto;
+			color: #FFC0CB;
+            text-align: center;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1;
+            margin-bottom: 25px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+			font-size: 10px;
+        }
+		label {
+			font-size: 25px;
+			font-family: Garamond, serif;
+			color: #FFC0CB;
+		}
+			
+		
+		
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Women's Month Celebration</h1> 
+    </header>
+
+	<style> 
+      marquee {
+        width: 100%;
+        padding: 10px 0;
+        background-color: pink;
+      }
+    </style>
+	
+    <marquee direction="scroll"> The National Women’s Month Celebration has become a platform to spotlight women’s accomplishments and address ongoing and emerging issues related to women’s empowerment and gender equality (PCW).</marquee>
+	
+
+<br>
+</br>
+	
+    <div class="container">
+	<br>
+	</br>
+        <b><h2>“There is no limit to what we, as women, can accomplish.” – Michelle Obama</h2> <br> </br>
+        <h2>“Dear Superwoman, let no one demean your intelligence. Let no one dribble you from your happiness. Let no one derail you from success. Be a smart, courageous, and determined woman.” – Gift Gugu Mona</h2><br> </br>
+        <h2>"She wasn't looking for a knight, she was looking for a sword." — Atticus</h2></b><br> </br>
+    </div>
+		
+		<br>
+		</br>
+		
+<html>  
+<head>  
+<script>
+        function showAlert() {
+            var name = document.getElementById("name").value;
+            if (name.trim() === "") {
+                alert("Please enter your name!");
+            } else {
+                alert("Wishing you a Happy Women's month, " + name + "!");
+            }
+        }
+    </script>  
+
+</head> 
+<body>  
+<center>
+
+	<b><label for="name">Please enter your name:</label></b>
+    <input type="text" id="name" name="name">
+    <button onclick="showAlert()">Submit</button>
+
+</center>  
+</body>  
+</html>  
+
+
+<br>
+</br>
+<br>
+</br>
+	
+	
+
+<center>
+<div>
+    <audio controls autoplay>
+      <source src="PIANONO.mp3" type="audio/mpeg">
+    </audio>
+	</div>
+	</center> 
+
+
+    <footer>
+        <p>&copy; ESCpES. STI Las Piñas</p>
+    </footer>
+	
+	
+	
+	
+</body>
+</html>
+
